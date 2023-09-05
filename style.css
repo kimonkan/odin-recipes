@@ -5,7 +5,6 @@ body{
 }
 
 .index-menu, #index-menu-title, .index-menu-td{
-    border: 1px solid #fff;
     width: 75%;
     table-layout: fixed;
     margin-top: 100px;
@@ -20,6 +19,7 @@ body{
 }
 
 .index-menu-td{
+    font-family: 'Press Start 2P';
     padding: 5px;
     text-align: center;
 }
