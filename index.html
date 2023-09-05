@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Starwars Recipes</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main"></div>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/spotchka.html">Spotchka</a></li>
-        <li><a href="recipes/blue_milk.html">Blue Milk</a></li>
-        <li><a href="recipes/t_16_skyhopper.html">T-16 Skyhopper</a></li>
-    </ul>
+    <table class="index-menu">
+      <tr>
+        <th id="index-menu-title" colspan="3">Odin Recipes</th>
+      </tr>
+      <tr>
+        <td class="index-menu-td">
+          <a href="recipes/spotchka.html">Spotchka</a>
+        </td>
+        <td class="index-menu-td">
+          <a href="recipes/blue_milk.html">Blue Milk</a>
+        </td>
+        <td class="index-menu-td">
+          <a href="recipes/t_16_skyhopper.html">T-16 Skyhopper</a>
+        </td>
+      </tr>
+    </table>
+
+    <!--------------------------------------------------------------->
+    <!-- THIS SCRIPT WAS USED TO GENERATE THE MULTIPLE BOX SHADOWS -->
+    <!--------------------------------------------------------------->
+
     <!--<script>
         function randomNumber(min,max) {
             return Math.floor(Math.random() * (max - min + 1)) + min
@@ -26,5 +41,5 @@
         }
         console.log(result.substring(0, result.length - 1));
     </script> -->
-</body>
+  </body>
 </html>
