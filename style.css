@@ -41,11 +41,6 @@ a{
     animation: zoom 5s infinite alternate;
 }
 
-.btn {
-    padding: 0.5rem;
-    border: 1px solid #333333;
-}
-
 @keyframes zoom {
     0%{
         transform: scale(1);
