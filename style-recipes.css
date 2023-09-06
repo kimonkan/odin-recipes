@@ -9,13 +9,19 @@ body {
     margin: 0;
 }
 
-.table {
+#header{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    padding: 15px;
+}
+
+table {
     width: 50%;
     border-collapse: collapse;
     text-align: center;
 }
 
-.th, .td {
+th, td {
     border: 1px solid #fff;
     padding: 8px;
 }
